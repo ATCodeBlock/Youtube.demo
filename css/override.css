@@ -1,0 +1,161 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  
+  .container{width:768px;}
+  
+  .navigation ul li{
+	  background:none;
+	  width:100%;
+  }
+  
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    border-radius:0;
+  }
+  
+  .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+	  color:#ffffff;
+  }
+  
+  .search_wrapper .span3{
+	  width:231px;
+  }
+  
+  .search_wrapper .span9{
+	  width:517px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container{width:450px;}
+  
+  .navigation ul li{
+	  background:none;
+	  width:100%;
+  }
+  
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    border-radius:0;
+  }
+  
+  .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+	  color:#ffffff;
+  }
+  
+  [class*="span"]{
+	  margin-left:0;
+  }
+  
+  .span4{
+	  width:166px;
+  }
+  
+  .span8{
+	  width:260px;
+  }
+  
+  .user_profile_wrapper .span2{
+	  width:125px;
+  }
+  
+  .user_profile_wrapper .span9{
+	  width:300px;
+  }
+  
+  .search_wrapper .span3{
+	  width:231px;
+  }
+  
+  .search_wrapper .span9{
+	  width:333px;
+  }
+  
+  .info_wrapper .span7{
+	  width:282px;
+  }
+  
+  .info_wrapper .span7 input{
+	  padding:0 6px;
+	  font-size:10px;
+  }
+  
+  .info_wrapper .span7 a{
+	  margin:0 5px;
+	  font-size:9px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+	.container{width:285px;}
+	.welcome_section{font-size:9px;}
+	.login-user-name, .login-user-emailId a, .user-account-setting a{padding:0 5px;}
+	.login-status{padding:0 15px;}
+	
+	.navigation ul li{
+	  background:none;
+	  width:100%;
+  }
+  
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    border-radius:0;
+  }
+  
+  .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a{
+	  color:#ffffff;
+  }
+  
+  .span4{
+	  width:95px;
+  }
+  
+  .span8{
+	  width:190px;
+  }
+  
+  .greet_bar span{
+	  font-size:12px;
+  }
+  
+  .user_profile_wrapper .span2{
+	  width:125px;
+  }
+  
+  .user_profile_wrapper .span9{
+	  width:135px;
+  }
+  
+  .user_name{
+	  font-size:14px;
+  }
+  
+  .search_wrapper .span3{
+	  width:231px;
+  }
+  
+  .search_wrapper .span9{
+	  width:285px;
+  }
+  
+  .button_container{
+	  float:none;
+  }
+  
+  .button_container a{
+	  padding:0 9px;
+	  font-size:11px;
+  }
+  
+  .info_wrapper .span4{
+	  width:160px;
+  }
+}
+
+.navbar{margin:0;}
